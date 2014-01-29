@@ -1,0 +1,379 @@
+/*** General Styles ***/
+/*default font size is 14px*/
+body {
+  font-family: 'Segoe', sans-serif;
+  padding: 0;
+}
+
+section,
+div {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.inner-wrapper { /* keeping text wrangled */
+  max-width: 83.571em;
+  padding: 0px 1em;
+  margin: auto;
+}
+
+/*** General Styles end ***/
+
+
+/*** Typography ***/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', sans-serif;
+  line-height: normal;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+
+h1 {
+  font-size: 571%;
+  margin: 428.5% 0px;
+}
+
+h2 {
+  font-size: 450%;
+}
+
+h3 {
+  
+}
+
+h4 {
+  
+}
+
+h5 {
+  
+}
+
+h6 {
+  
+}
+
+.main-title {
+  margin-top: 0px;
+  text-align: center;
+}
+
+.with-subtitle {
+  margin-bottom: 30px;
+  padding-bottom: 50px;
+}
+
+.without-subtitle {
+  margin-bottom: 120px;
+}
+
+/*** Typography end ***/
+
+
+/*** Regions ***/
+
+section{
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  padding: 7.143em 0 7.143em 0;
+}
+
+section {
+  background: url('../img/backgrounds/tables.jpg');
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+
+#break_1 {
+  background-color: #3366ff;
+  padding: 28em 0 28em 0;
+  color: white;
+}
+
+#break_2 {
+  background-color: #99cc44;
+  padding: 28em 0 28em 0;
+  color: white;
+}
+
+#break_3 {
+  padding: 28em 0 28em 0;
+  background: url('../img/backgrounds/Minneapolis1.jpg');
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  color: white;
+}
+
+#break_3 h1{
+  margin-bottom: 0;
+}
+
+#break_3 h5 {
+  text-align: center;
+}
+
+#break_4 {
+    background-color: #CA0000;
+    padding-top: 7.143em;
+    height: 100%; 
+    color: #c1bea2;
+    text-transform: capitalize;
+}
+
+#break_4 h1 {
+    font-family: "Helvetica", sans-serif;
+    font-weight: 500;
+}
+
+#crown {
+  display: block;
+  margin: 0 auto;
+}
+
+#break_5 {
+  background: url('../img/backgrounds/Seattle.jpg');
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  padding: 28em 0 28em 0;
+  color: white;
+}
+
+#break_6 {
+  padding: 28em 0 28em 0;
+}
+
+#break_7 {
+  background-color: #3366ff;
+  padding: 28em 0 28em 0;
+  color: white;
+}
+
+#break_7 h1 {
+  margin-bottom: 0.714em;
+}
+
+#break_7 h5 {
+  text-align: center;
+}
+
+#break_8 {
+  background-color: #ffa500;
+  color: white;
+  padding: 28em 0 28em 0;
+}
+
+
+#break_9 {
+  background: url('../img/backgrounds/gob.jpg');
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  background-color: #BBB;
+  position: relative;
+  width: 100%;
+  min-height: 50em;
+  padding: 10em;
+}
+
+#break_10 {
+  background-color: #797ce3;
+  color: white;
+  padding: 24em 0 24em 0;
+}
+
+#break_11 {
+  background: url('../img/backgrounds/full_stack.jpg');
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  padding: 24em 0 24em 0;
+  color: white;
+}
+
+#break_12 {
+  background: url('../img/backgrounds/half_stack1.jpg');
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  padding: 24em 0 24em 0;
+  color: white;
+}
+
+#break_13 {
+  padding-top: 14.286em;
+  padding-bottom: 7.143em;
+}
+
+#break_14 {
+  background-color: #BBB;
+  padding: 24em 0 24em 0;
+}
+
+#break_15 {
+  background: url('../img/backgrounds/red.jpg');
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  position: relative;
+  min-height: 57em;
+  padding: 7.143em 0 7.143em;
+}
+
+#break_16 {
+  background-color: black;
+  color: white;
+  padding: 28em 0 28em 0;
+}
+
+#break_17 {
+  background-color: #DDD;
+  padding: 14em 0 14em 0;
+}
+
+#break_18 {
+  background-color: #3366ff;
+  padding: 28em 0 20em 0;
+  color: white;
+}
+
+/*** Regions end ***/
+
+/* Generic */
+
+.center-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+
+.parallax h1 {
+  margin: 4.286em 0 0;
+  text-align: center;
+  margin: 0;
+  font-weight: 300;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 0;
+  color: white;
+}
+
+.slogan {
+  margin: 4.286em 0 0;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+/* Panel 1 */
+.panel1 {
+  position: relative;
+}
+
+.panel1 .panel-item {
+  position: relative;
+  margin: 0 auto;
+  padding: 10px;
+  width: 220px;
+  height: 220px;
+}
+
+.panel1 .panel-icon {
+  width: 250px;
+  position: absolute;
+  font-size: 80px;
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: opacity 0.3s, top 0.3s, font-size 0.3s;
+     -moz-transition: opacity 0.3s, top 0.3s, font-size 0.3s;
+       -o-transition: opacity 0.3s, top 0.3s, font-size 0.3s;
+          transition: opacity 0.3s, top 0.3s, font-size 0.3s;
+}
+
+.panel1 .panel-item:hover .panel-icon {
+  opacity: 0;
+  top: 60%;
+  font-size: 50px;
+}
+
+.panel1 .panel-info {
+  position: relative;
+  text-align: center;
+  opacity: 0;
+  -webkit-transform: scale(0);
+     -moz-transform: scale(0);
+       -o-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+     -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+       -o-transition: opacity 0.3s, -o-transform 0.3s;
+          transition: opacity 0.3s, transform 0.3s;
+}
+
+.panel1 .panel-item:hover .panel-info {
+  position: relative;
+  text-align: center;
+  opacity: 0.7;
+  -webkit-transform: scale(1);
+     -moz-transform: scale(1);
+       -o-transform: scale(1);
+          transform: scale(1);
+}
+
+.panel-info h3 {
+  padding-top: 40px;
+}
+
+.panel1 .panel-item h3 {
+  margin-top: 30px;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+
+
+
+/*--------------MEDIA QUERIES--------------*/
+
+@media (max-width: 767px) {
+  
+  /*** Regions ***/
+
+  section{
+    padding: 100px 0px 150px;
+  }
+  
+  section {
+    min-height: 400px;
+  }
