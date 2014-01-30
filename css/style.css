@@ -133,10 +133,11 @@ section {
 
 #break_4 {
     background-color: #CA0000;
-    padding-top: 7.143em 0 7.143em 0;
+    padding: 7.143em 0 7.143em 0;
     height: 120%; 
     color: #c1bea2;
     text-transform: capitalize;
+    margin: 0;
 }
 
 #break_4 h1 {
