@@ -89,7 +89,7 @@ section{
   position: relative;
   width: 100%;
   min-height: 100%;
-  padding: 7.143em 0 7.143em 0;
+  padding: 7.143em 0 12em 0;
 }
 
 section {
@@ -133,8 +133,8 @@ section {
 
 #break_4 {
     background-color: #CA0000;
-    padding-top: 7.143em;
-    height: 100%; 
+    padding-top: 7.143em 0 7.143em 0;
+    height: 120%; 
     color: #c1bea2;
     text-transform: capitalize;
 }
